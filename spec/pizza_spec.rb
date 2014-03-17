@@ -25,7 +25,7 @@ describe Pizza do
 		end
 	end
 	
-	describe "vegetarian" do
+	describe "#vegetarian?" do
 		it "checks if a pizza is vegetarian" do
 			toppings = [
         Topping.new('mushrooms', vegetarian: true),
